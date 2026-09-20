@@ -84,11 +84,6 @@ The prepared data was analyzed to understand:
 
 An interactive Power BI dashboard was created to present the analysis through visualizations, KPIs, charts, maps, and filters.
 
-## Dashboard
-
-<img width="1152" height="657" alt="Dashboard" src="https://github.com/user-attachments/assets/e3be1f07-a998-41bf-ae9e-f05a5969162b" />
-
-
 ### Dashboard Preview
 
 ![Starbucks Global Store Analysis Dashboard](https://github.com/reeti-verma/Starbucks-global-store-analysis/blob/main/Dashboard/Dashboard.png)
