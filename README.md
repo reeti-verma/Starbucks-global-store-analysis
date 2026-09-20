@@ -2,114 +2,121 @@
 
 ## Project Overview
 
-This project analyzes Starbucks store data across different countries and regions to understand the company's global store presence and identify key patterns in store distribution.
+This project focuses on analyzing Starbucks' global store presence using **Microsoft Power BI**.
 
-The analysis was performed using **Microsoft Power BI**, with the dataset organized and prepared for analysis. An interactive dashboard was created to present important insights through KPIs, charts, maps, and visualizations.
+The analysis explores Starbucks store distribution across different countries, cities, regions, and store types. An interactive Power BI dashboard was created to present the analysis in a simple and visual way.
 
 ## Project Objective
 
-The main objective of this project is to analyze Starbucks' global store distribution and answer important business questions such as:
+The objective of this project is to analyze Starbucks' global store distribution and understand patterns in its worldwide presence.
 
-- How many Starbucks stores are present globally?
-- Which countries have the highest number of stores?
-- How are stores distributed across different regions?
-- Which cities have the highest store presence?
-- What is the distribution of stores by ownership type?
-- How does Starbucks' store presence vary across countries?
-- What are the major patterns in the global store network?
+The analysis focuses on questions such as:
 
-## Dataset
+How many beverages are included in the analysis?
+What is the average sugar, calorie, and caffeine content across the menu?
+Which beverage categories are highest and lowest in calories?
+Which categories make up the largest share of the menu?
+Which categories have the highest average caffeine?
+Which 5 beverages contain the most caffeine?
+How do these metrics change across protein ranges?
+How do they differ by beverage preparation type?
 
-The dataset contains information about Starbucks stores located across different countries and regions.
+## Dataset Used
 
-Key information includes:
+This project uses two datasets for the analysis.
 
-- Store location
-- Country
-- City
-- Region
-- Store ownership/type
-- Store details
+### 1. Directory Dataset
 
-The original dataset is available in the **Database** folder.
+The `directory.csv` file contains Starbucks store directory information used for analyzing store locations and geographical distribution.
+
+**Dataset:** [directory.csv](https://github.com/reeti-verma/Starbucks-global-store-analysis/blob/main/Database/directory.csv)
+
+### 2. Starbucks Dataset
+
+The `starbucks.csv` file contains additional Starbucks store information used in the analysis.
+
+**Dataset:** [starbucks.csv](https://github.com/reeti-verma/Starbucks-global-store-analysis/blob/main/Database/starbucks.csv)
+
+Both datasets are available in the **Database** folder of this repository.
 
 ## Tools & Technologies
 
-- **Microsoft Power BI**
-- **Power Query**
-- **DAX**
-- **Microsoft Excel / CSV**
-- **Data Visualization**
-- **Data Cleaning**
+- Microsoft Power BI
+- Power Query
+- DAX
+- CSV
+- Data Cleaning
+- Data Transformation
+- Data Analysis
+- Data Visualization
+- Business Intelligence
 
-## Project Workflow
+## Analysis Process
 
-### 1. Data Collection
+### 1. Data Preparation
 
-The Starbucks store dataset was collected and organized for analysis.
+The Starbucks datasets were imported into Power BI and prepared for analysis.
 
 ### 2. Data Cleaning
 
-The dataset was prepared using Power Query by:
+The data was cleaned and transformed using Power Query to make it suitable for analysis and visualization.
+
+The preparation process included:
 
 - Checking data types
-- Handling missing values
+- Handling missing or inconsistent values
 - Removing unnecessary data
-- Standardizing columns
-- Preparing the dataset for visualization
+- Transforming columns where required
+- Preparing the data for visualization
 
 ### 3. Data Analysis
 
-The cleaned data was analyzed in Power BI to identify:
+The prepared data was analyzed to understand:
 
+- Global store distribution
 - Store distribution by country
 - Store distribution by city
-- Regional patterns
-- Ownership distribution
-- Countries with the highest store presence
+- Regional store presence
+- Store ownership/type
+- Geographical patterns
 
-### 4. Dashboard Creation
+### 4. Dashboard Development
 
-An interactive Power BI dashboard was created using:
-
-- KPI cards
-- Bar charts
-- Donut charts
-- Maps
-- Tables
-- Slicers
-- Interactive filters
-
-## Key KPIs
-
-The dashboard focuses on important metrics such as:
-
-- **Total Stores**
-- **Total Countries**
-- **Total Cities**
-- **Stores by Country**
-- **Stores by Region**
-- **Stores by Ownership Type**
+An interactive Power BI dashboard was created to present the analysis through visualizations, KPIs, charts, maps, and filters.
 
 ## Dashboard
 
-The dashboard provides an interactive view of Starbucks' global store network.
+<img width="1152" height="657" alt="Dashboard" src="https://github.com/user-attachments/assets/e3be1f07-a998-41bf-ae9e-f05a5969162b" />
 
-Users can use filters and slicers to explore store distribution by country, region, city, and other available dimensions.
 
 ### Dashboard Preview
 
-<img width="1152" height="657" alt="Dashboard" src="https://github.com/user-attachments/assets/59ecc975-65ee-48d8-80ae-190ad252d26a" />
+![Starbucks Global Store Analysis Dashboard](https://github.com/reeti-verma/Starbucks-global-store-analysis/blob/main/Dashboard/Dashboard.png)
 
-## Key Insights
+## Power BI Analysis File
 
-The analysis helps understand:
+The complete Power BI analysis file is available in the **Analysis** folder.
 
-- Starbucks' global expansion and store presence
-- Countries with a significant number of Starbucks locations
-- Differences in store distribution across regions
-- Major cities with a strong Starbucks presence
-- Distribution of stores across different ownership types
+**Power BI File:** [starbucks Analysis.pbix](https://github.com/reeti-verma/Starbucks-global-store-analysis/blob/main/Analysis/starbucks%20Analysis.pbix)
+
+## Project Structure
+
+```text
+Starbucks-global-store-analysis/
+│
+├── Analysis/
+│   └── starbucks Analysis.pbix
+│
+├── Dashboard/
+│   └── Dashboard.png
+│
+├── Database/
+│   ├── directory.csv
+│   └── starbucks.csv
+│
+└── README.md
+```
+
 
 ## Skills Demonstrated
 
@@ -125,11 +132,6 @@ The analysis helps understand:
 
 ## Conclusion
 
-This project demonstrates how Power BI can be used to transform raw store-level data into an interactive business intelligence dashboard.
+This project demonstrates how **Microsoft Power BI** can be used to transform raw store-level data into an interactive business intelligence dashboard.
 
-The analysis provides a clear view of Starbucks' global store distribution and helps identify geographical patterns and differences in store presence across countries and regions.
-
-## Repository
-
-**GitHub Repository:**  
-https://github.com/reeti-verma/Starbucks-global-store-analysis
+By combining two Starbucks datasets, cleaning and transforming the data, and creating interactive visualizations, the project provides a clear view of Starbucks' global store distribution.
